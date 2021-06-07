@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#n_lm3vpnjl-(2z+ll0m-j5##596r8du%k87&v*s0!^am9+c+7'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -136,5 +136,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
-RAZORPAY_API_KEY = 'rzp_test_OSQOHP1VhntEcr'
-RAZORPAY_API_SECRET_KEY = 'Ed6F9VRz189ZjEHVnU8dGXW5'
+RAZORPAY_API_KEY = ''
+RAZORPAY_API_SECRET_KEY = ''
